@@ -2,8 +2,6 @@
 You can easily create Rails 6.0 templates using docker-compose.
 It uses PostgreSQL for the database and webpacker on the front end, so modern development using ES 6 is possible.
 
-詳細な手順は[Qiita](https://qiita.com/belion_freee/items/f0ef60a08299c9febbdf)にも載せてあります。
-
 ## Install Docker
 Please install Docker on your PC first.
 Refer to [here](https://docs.docker.com/install/) for the installation procedure.
@@ -15,7 +13,7 @@ Then clone the repository and move to project folder.
 Plese set your project name like `sample_app`.
 
 ```
-git clone -b rails6 https://github.com/belion-freee/quickstart.git <Project name>
+git clone -b rails6 https://github.com/naokikubo2/quickstart.git <Project name>
 cd <Project name>
 ```
 
@@ -48,18 +46,6 @@ But if this warnings annoys you, Please execute the command displayed in the war
 Finally, please access `http://localhost:3000` as Rails is running.
 Enjoy your Rails!
 
-## Do you wana use MySQL?
-If you want to use MySQL, please install it referring to the following branch.
-
-[MySQL](https://github.com/belion-freee/quickstart)
-
-## Do you use Windows?
-It has been reported that scripts do not work properly on Windows.
-If it does not work properly, please install it referring to the following branch.
-
-[With PostgreSQL](https://github.com/belion-freee/quickstart/tree/for_win_pg#clone-this-repository)
-[With MySQL](https://github.com/belion-freee/quickstart/tree/for_win_mysql#clone-this-repository)
-
 ## Other services
 You can use also those services!
 
@@ -84,5 +70,3 @@ Execute `./qs up chrome` command.
 
 ### debug
 you can use byebug.
-
-https://qiita.com/TYuko/items/d46f5dc91dd488574273
